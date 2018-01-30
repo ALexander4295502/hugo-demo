@@ -20,6 +20,9 @@ $(function () {
   counters()
   demo()
   contactForm()
+  navActive()
+  clickMenu()
+  navigationSection()
 })
 
 // Ajax contact
@@ -387,3 +390,56 @@ $(window).resize(function () {
     windowWidth = newWindowWidth
   }
 })
+
+// Page Nav
+function clickMenu() {
+  var topVal = ( $(window).width() < 769 ) ? 0 : 58;
+
+  $(window).resize(function(){
+    topVal = ( $(window).width() < 769 ) ? 0 : 58;
+  });
+
+  $('a[data-nav-section]').click(function (event) {
+
+    var sectionName = $(this).attr('data-nav-section');
+
+    $('html, body').animate({
+      scrollTop: $('section[data-section="' + sectionName + '"]').offset().top - topVal
+    }, 500, 'easeOutExpo', function () {
+      navActive(sectionName);
+    });
+
+    event.preventDefault();
+  })
+}
+
+// Reflect scrolling in navigation
+function navActive(section) {
+  $('a[data-nav-section]').removeClass('focused');
+  $('a[data-nav-section="'+section+'"]').addClass('focused');
+}
+
+function navigationSection() {
+
+  var $section = $('section[data-section]');
+
+  $section.waypoint(function(direction) {
+    if (direction === 'down') {
+      navActive($(this.element).attr('data-section'));
+    }
+
+  }, {
+    offset: '150px'
+  });
+
+  $section.waypoint(function(direction) {
+    if (direction === 'up') {
+      navActive($(this.element).attr('data-section'));
+    }
+  }, {
+    offset: function() { return -$(this.element).height() + 155; }
+  });
+
+}
+
+

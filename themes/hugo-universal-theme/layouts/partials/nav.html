@@ -20,18 +20,28 @@
 
             <div class="navbar-collapse collapse" id="navigation">
                 <ul class="nav navbar-nav navbar-right">
-                    {{ range .Site.Menus.main }}
+
+                    {{ if .Site.Params.testimonials.enable }}
                     <li class="dropdown">
-                        {{ if .HasChildren }}
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            {{ range .Children }}
-                            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                            {{ end }}
-                        </ul>
-                        {{ else }}
-                        <a href="{{ .URL }}">{{ .Name }}</a>
-                        {{ end  }}
+                        <a href="#" data-nav-section="testimonials" >{{ .Site.Params.testimonials.title }}</a>
+                    </li>
+                    {{ end }}
+
+                    {{ if .Site.Params.clients.enable }}
+                    <li class="dropdown">
+                        <a href="#" data-nav-section="clients">{{ .Site.Params.clients.title }}</a>
+                    </li>
+                    {{ end }}
+
+                    {{ if .Site.Params.team.enable }}
+                    <li class="dropdown">
+                        <a href="#" data-nav-section="team">{{ .Site.Params.team.title }}</a>
+                    </li>
+                    {{ end }}
+
+                    {{ if .Site.Params.contact_section.enable }}
+                    <li class="dropdown">
+                        <a href="#" data-nav-section="contact_section">{{ .Site.Params.contact_section.title }}</a>
                     </li>
                     {{ end }}
                 </ul>
