@@ -38,36 +38,36 @@ paginate = 10
     url  = "/contact/"
     weight = 4
 
-[[Languages.en.menu.main]]
-    name = "中文"
-    url = "../zh"
-    weight = 5
-
-[[Languages.zh.menu.main]]
-    name = "主页"
-    url  = "/"
-    weight = 1
-
-[[Languages.zh.menu.main]]
-    name = "博客"
-    url  = "/blog/"
-    weight = 2
-
-[[Languages.zh.menu.main]]
-    name = "FAQ"
-    identifier = "faq"
-    url  = "/faq/"
-    weight = 3
-
-[[Languages.zh.menu.main]]
-    name = "联系我们"
-    url  = "/contact/"
-    weight = 4
-
-[[Languages.zh.menu.main]]
-    name = "EN"
-    url = "../en"
-    weight = 5
+#[[Languages.en.menu.main]]
+#    name = "中文"
+#    url = "../zh"
+#    weight = 5
+#
+#[[Languages.zh.menu.main]]
+#    name = "主页"
+#    url  = "/"
+#    weight = 1
+#
+#[[Languages.zh.menu.main]]
+#    name = "博客"
+#    url  = "/blog/"
+#    weight = 2
+#
+#[[Languages.zh.menu.main]]
+#    name = "FAQ"
+#    identifier = "faq"
+#    url  = "/faq/"
+#    weight = 3
+#
+#[[Languages.zh.menu.main]]
+#    name = "联系我们"
+#    url  = "/contact/"
+#    weight = 4
+#
+#[[Languages.zh.menu.main]]
+#    name = "EN"
+#    url = "../en"
+#    weight = 5
 
 # Top bar social links menu
 
