@@ -484,6 +484,8 @@ ul.list-style-none {
   width: 100%;
   top: 0;
   z-index: 1000;
+  -webkit-box-shadow: 0 0 5px #cccccc;
+  box-shadow: 0 0 5px #cccccc;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
@@ -1151,7 +1153,7 @@ fieldset[disabled] .btn-template-primary.active {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #dddddd;
+  background: #1678EA;
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
@@ -3058,7 +3060,6 @@ img.hidden-xs.hidden-sm, img.visible-sm.visible-sm  {
   background-color: #1678EA;
   border-color: #cccccc;
   border-bottom: none;
-  height: 12px;
 }
 .navbar-default .navbar-brand {
   color: #555555;
