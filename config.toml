@@ -195,6 +195,11 @@ paginate = 10
     title = "Our Clients"
     subtitle = ""
 
+[params.team]
+    enable = true
+    title = "Our Team"
+    subtitle = ""
+
 [params.contact_section]
     enable = true
     title = "Contact us"
