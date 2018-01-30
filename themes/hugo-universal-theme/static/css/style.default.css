@@ -543,10 +543,15 @@ body.boxed .navbar-affixed-top.affix {
   border-radius: 0;
 }
 .btn-template-main {
-  color: #FFFFFF;
+  color: #1678EA;
   background-color: #ffffff;
   border-color: #1678EA;
 }
+
+.btn-template-main-mobile {
+  color: #FFFFFF;
+}
+
 .btn-template-main:hover,
 .btn-template-main:focus,
 .btn-template-main:active,
@@ -1753,12 +1758,10 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 60px 0;
 }
 .bar.background-pentagon {
-  background: url('../img/texture-bw.png') center center repeat;
-  border-top: solid 1px #999999;
-  border-bottom: solid 1px #999999;
+  background: #F8F8F8;
 }
 .bar.background-gray {
-  background: #eeeeee;
+  background: #F8F8F8;
 }
 .bar.background-gray-dark {
   background: #555555;

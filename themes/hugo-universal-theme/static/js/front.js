@@ -22,6 +22,7 @@ $(function () {
   contactForm()
   navActive()
   clickMenu()
+  checkScroll()
   navigationSection()
 })
 
@@ -411,6 +412,15 @@ function clickMenu() {
 
     event.preventDefault();
   })
+}
+
+function checkScroll() {
+  $(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+    if(scroll < 10) {
+      $('a[data-nav-section]').removeClass('focused');
+    }
+  });
 }
 
 // Reflect scrolling in navigation
