@@ -2894,25 +2894,10 @@ img.hidden-xs.hidden-sm, img.visible-sm.visible-sm  {
   }
 }
 
-@media (min-width: 953px) {
-  a.navbar-brand.home {
-    max-width: 170px;
-    max-height: 62px;
-  }
-}
-
-@media (max-width: 952px) {
-  a.navbar-brand.home {
-    max-width: 140px;
-    max-height: 62px;
-  }
-}
-
-@media (max-width: 480px) {
-  a.navbar-brand.home {
-    max-width: 150px;
-    max-height: 62px;
-  }
+a.navbar-brand.home {
+  max-width: 161px;
+  max-height: 55px;
+  padding: 0px 0px 0px 20px;
 }
 
 .navbar-fixed-top,
@@ -3579,6 +3564,11 @@ address {
   display: inline-block;
   zoom: 1;
   *display: inline;
+}
+
+section#sportik-team {
+  padding-top: 0;
+  padding-bottom: 40px;
 }
 
 a.badge:hover,

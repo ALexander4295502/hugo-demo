@@ -1,15 +1,35 @@
 {{ if isset .Site.Params "latitude" }}
   {{ if isset .Site.Params "longitude" }}
-      <div class="hidden">
-        <input id="gmap-lat" value="{{ .Site.Params.latitude }}" />
-        <input id="gmap-lng" value="{{ .Site.Params.longitude }}" />
-        <input id="gmap-marker" value="{{ .Site.BaseURL }}img/marker.png" />
-        {{ if isset .Site.Params "direction" }}
-          <input id="gmap-dir" value="{{ .Site.Params.direction }}" />
-        {{ else }}
-          <input id="gmap-dir" value="{{ .Site.Params.latitude }},{{ .Site.Params.longitude }}" />
-        {{ end }}
-      </div>
-      <div id="map" />
+    <section class="bar background-gray no-mb" id="sportik-team">
+          <div class="hidden">
+              <input id="gmap-lat" value="{{ .Site.Params.latitude }}" />
+              <input id="gmap-lng" value="{{ .Site.Params.longitude }}" />
+              <input id="gmap-marker" value="{{ .Site.BaseURL }}img/marker.png" />
+              {{ if isset .Site.Params "direction" }}
+              <input id="gmap-dir" value="{{ .Site.Params.direction }}" />
+              {{ else }}
+              <input id="gmap-dir" value="{{ .Site.Params.latitude }},{{ .Site.Params.longitude }}" />
+              {{ end }}
+          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    {{ if isset .Site.Params "address" }}
+                    <section>
+
+                        <h3 class="text-uppercase"> {{ i18n "contactAddrTitle" }}</h3>
+
+                        {{ .Site.Params.address | safeHTML }}
+
+                    </section>
+
+                    {{ end }}
+                </div>
+                <div class="col-md-9">
+                    <div id="map" />
+                </div>
+            </div>
+        </div>
+    </section>
   {{ end }}
 {{ end }}

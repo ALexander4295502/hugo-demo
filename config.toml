@@ -102,7 +102,7 @@ paginate = 10
     defaultDescription = "Site template made by devcows using hugo"
 
     # Google Maps API key (if not set will default to not passing a key.)
-    googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
+    googleMapsApiKey = "AIzaSyAvbkmlJnI47jR_yYB0FB_yCL3z-kqibaY"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"
@@ -129,17 +129,17 @@ paginate = 10
     date_format = "January 2, 2006"
 
     logo = "img/logo.png"
-#    address = """<p><strong>Universal Ltd.</strong>
-#        <br>13/25 New Avenue
-#        <br>Newtown upon River
-#        <br>45Y 73J
-#        <br>England
-#        <br>
-#        <strong>Great Britain</strong>
-#      </p>
-#      """
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    address = """<p><strong>Sportik</strong>
+        <br>8407 Central Ave
+        <br>Newark
+        <br>94560
+        <br>California
+        <br>
+        <strong>United States</strong>
+      </p>
+      """
+    latitude = "37.5177745"
+    longitude = "-122.0446720"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -204,6 +204,27 @@ paginate = 10
     enable = true
     title = "Contact us"
     subtitle = ""
+
+[params.contact]
+    enable = true
+    map = true
+    form = true
+    title = "Get in touch"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
+        ["icon-phone", "(123) 465-6789"],
+        ["icon-envelope", "info@freehtml5.co"],
+        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+      ]
+
+    name = "Name"
+    email = "Email"
+    phone = "Phone"
+    message = "Message"
+    button = "Send message"
 
 [params.recent_posts]
     enable = false
