@@ -2026,6 +2026,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 10px;
   overflow: hidden;
 }
+
 #blog-listing-big .post .image img,
 #blog-homepage .post .image img {
   -webkit-transition: all 0.2s ease-out;
@@ -2040,7 +2041,8 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 img.hidden-xs.hidden-sm, img.visible-sm.visible-sm  {
-  width: 33.333%;
+  width: 100%;
+  height: 100%;
 }
 
 #blog-listing-big .post .video,
@@ -2891,6 +2893,28 @@ img.hidden-xs.hidden-sm, img.visible-sm.visible-sm  {
     border-radius: 0;
   }
 }
+
+@media (min-width: 953px) {
+  a.navbar-brand.home {
+    max-width: 170px;
+    max-height: 62px;
+  }
+}
+
+@media (max-width: 952px) {
+  a.navbar-brand.home {
+    max-width: 140px;
+    max-height: 62px;
+  }
+}
+
+@media (max-width: 480px) {
+  a.navbar-brand.home {
+    max-width: 150px;
+    max-height: 62px;
+  }
+}
+
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
