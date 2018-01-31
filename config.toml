@@ -122,22 +122,22 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "yuanzheng@sportik.me"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+#    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+    copyright = "©2017 Sportik"
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
     logo = "img/logo.png"
-    address = """<p><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
-      </p>
-      """
+#    address = """<p><strong>Universal Ltd.</strong>
+#        <br>13/25 New Avenue
+#        <br>Newtown upon River
+#        <br>45Y 73J
+#        <br>England
+#        <br>
+#        <strong>Great Britain</strong>
+#      </p>
+#      """
     latitude = "-12.043333"
     longitude = "-77.028333"
 
@@ -176,7 +176,7 @@ paginate = 10
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
-    title = "Testimonials"
+    title = "Advisors"
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 [params.see_more]
@@ -206,6 +206,6 @@ paginate = 10
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
+    enable = false
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
