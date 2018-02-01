@@ -1,7 +1,9 @@
 * {margin:0;}
 
-canvas#canvas {
-    vertical-align: bottom;
+canvas#scene{
+    background: linear-gradient(#1678EA,#5CBEFD);;
+    width: 100vw;
+    height: 100vh;
 }
 
 div.intro-text {
@@ -142,9 +144,6 @@ section#sportik-intro {
         -webkit-background-size: 0 auto;
         background-size: 0 auto;
     }
-}
-body {
-    background-color: #0d74ff;
 }
 
 .scroll-down {
