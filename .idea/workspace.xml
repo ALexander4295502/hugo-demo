@@ -2,83 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35626382-4908-45fd-ac15-7b4cf179e8e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/config.toml" afterPath="$PROJECT_DIR$/config.toml" />
-      <change beforePath="$PROJECT_DIR$/static/img/banners/banner-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/img/banners/banner-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/img/banners/banner-3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/img/banners/banner-4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/img/banners/banner-5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/layouts/index.html" afterPath="$PROJECT_DIR$/themes/hugo-universal-theme/layouts/index.html" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/layouts/page/single.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/contact.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/contact_section.html" afterPath="$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/contact_section.html" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/page.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/recent_posts.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.blue.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.green.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.marsala.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.pink.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.red.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.turquoise.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.violet.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/apple-touch-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/banner.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/banner2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/basketsquare.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/blog-avatar.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/blog-avatar2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/blog-medium.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/blog-recent-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/blog-recent-3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/blog-recent.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/blog.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/blog2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/detailbig1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/detailbig2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/detailbig3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/detailsquare.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/detailsquare2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/detailsquare3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/fixed-background-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/grabbing.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/home-try.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/homepage-slider.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/logo-small.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/main-slider1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/main-slider2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/main-slider3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/main-slider4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/men.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/page-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/page-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/page-3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/payment.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/placeholder.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/portfolio-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/portfolio-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/portfolio-3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/portfolio-4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/portfolio-5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/portfolio-6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/portfolio-7.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/portfolio-8.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/portfolio-9.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/product1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/product2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/product3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/product4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/slide1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/slide2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/slide3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/slide4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/slide5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/slide6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/texture-turquoise.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/texture-violet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/img/women.jpg" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -95,8 +19,8 @@
       <file leaf-file-name="config.toml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="115" column="27" lean-forward="true" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
+            <state relative-caret-position="75">
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -395,12 +319,12 @@
       <updated>1517279687741</updated>
       <workItem from="1517279690455" duration="33276000" />
       <workItem from="1517421580456" duration="13115000" />
-      <workItem from="1517509385973" duration="9713000" />
+      <workItem from="1517509385973" duration="10022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68533000" />
+    <option name="totallyTimeSpent" value="68842000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -766,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="115" column="27" lean-forward="true" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
+        <state relative-caret-position="75">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
