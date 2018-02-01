@@ -71,35 +71,10 @@ paginate = 10
 
 # Top bar social links menu
 
-[[menu.topbar]]
-    weight = 1
-    name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
-    pre = "<i class='fa fa-2x fa-github'></i>"
-
-[[menu.topbar]]
-    weight = 2
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fa fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 3
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fa fa-2x fa-twitter'></i>"
-
-[[menu.topbar]]
-    weight = 4
-    name = "Email"
-    url = "mailto:your@email.com"
-    pre = "<i class='fa fa-2x fa-envelope'></i>"
-
 [params]
-    viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
-    defaultDescription = "Site template made by devcows using hugo"
+    author = "Sportik"
+    defaultKeywords = ["sportik"]
+    defaultDescription = "Site template made by sportik"
 
     # Google Maps API key (if not set will default to not passing a key.)
     googleMapsApiKey = "AIzaSyAvbkmlJnI47jR_yYB0FB_yCL3z-kqibaY"
@@ -156,11 +131,11 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = false
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
+    text ="""
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
       </p>
-      """
+    """
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
