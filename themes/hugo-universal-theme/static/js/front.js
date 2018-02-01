@@ -394,21 +394,29 @@ $(window).resize(function () {
 
 // Page Nav
 function clickMenu() {
-  var topVal = ( $(window).width() < 769 ) ? 0 : 58;
+  var mobileMode = $(window).width() < 768;
 
   $(window).resize(function(){
-    topVal = ( $(window).width() < 769 ) ? 0 : 58;
+    mobileMode = $(window).width() < 768;
   });
 
   $('a[data-nav-section]').click(function (event) {
 
-    var sectionName = $(this).attr('data-nav-section');
+    var affixOffset = $(window).scrollTop() < 200 ? (mobileMode ? 300 : 130) - $(window).scrollTop() : 0;
 
+    var navbar = $('#navigation');
+
+    var sectionName = $(this).attr('data-nav-section');
     $('html, body').animate({
-      scrollTop: $('section[data-section="' + sectionName + '"]').offset().top - topVal
+      scrollTop: $('section[data-section="' + sectionName + '"]').offset().top - affixOffset
     }, 500, 'easeOutExpo', function () {
       navActive(sectionName);
     });
+
+    if ( navbar.is(':visible')) {
+      navbar.removeClass('in');
+      navbar.attr('aria-expanded', 'false');
+    }
 
     event.preventDefault();
   })

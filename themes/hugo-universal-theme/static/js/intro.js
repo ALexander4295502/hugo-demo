@@ -80,28 +80,48 @@ function initScene(){
   ww = canvas.width = window.innerWidth;
   wh = canvas.height = window.innerHeight;
 
-  var text = "Let's Sportik!";
+  var text = "Let's\nSportik!";
 
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  if(ww < 900) {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-  ctx.font = "bold "+(ww/8)+"px sans-serif";
-  ctx.textAlign = "center";
-  ctx.fillText(text, ww/2, wh/2);
+    ctx.font = "bold "+(ww/4)+"px sans-serif";
+    ctx.textAlign = "center";
+    var lines = text.split("\n");
+    var y = 0;
+    for (var i = 0; i < lines.length; ++i) {
+      ctx.fillText(lines[i], ww/2, wh/2.5 + y);
+      var lineHeight = ctx.measureText("L").width * 1.4;
+      y += lineHeight;
+    }
 
-  var data  = ctx.getImageData(0, 0, ww, wh).data;
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  ctx.globalCompositeOperation = "screen";
+    var data  = ctx.getImageData(0, 0, ww, wh).data;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.globalCompositeOperation = "screen";
+
+
+  } else {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    ctx.font = "bold "+(ww/8)+"px sans-serif";
+    ctx.textAlign = "center";
+    ctx.fillText(text, ww/2, wh/2);
+
+    var data  = ctx.getImageData(0, 0, ww, wh).data;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.globalCompositeOperation = "screen";
+  }
 
   particles = [];
-  for(var i=0;i<ww;i+=Math.round(ww/150)){
-    for(var j=0;j<wh;j+=Math.round(ww/150)){
+
+  for(var i=0;i<ww;i+=9){
+    for(var j=0;j<wh;j+=9){
       if(data[ ((i + j*ww)*4) + 3] > 150){
         particles.push(new Particle(i,j));
       }
     }
   }
   amount = particles.length;
-
 }
 
 function onMouseClick(){
