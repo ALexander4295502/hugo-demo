@@ -18,7 +18,7 @@ function Particle(x,y){
     x : x,
     y: y
   };
-  this.r =  Math.random()*5 + 2;
+  this.r =  Math.random()* (isPhone() ? 3 : 5) + 2;
   this.vx = (Math.random()-0.5)*20;
   this.vy = (Math.random()-0.5)*20;
   this.accX = 0;
@@ -114,8 +114,9 @@ function initScene(){
 
   particles = [];
 
-  for(var i=0;i<ww;i+=9){
-    for(var j=0;j<wh;j+=9){
+  const particleDensity = isPhone() ? 5 : 10;
+  for(var i=0;i<ww;i+=particleDensity){
+    for(var j=0;j<wh;j+=particleDensity){
       if(data[ ((i + j*ww)*4) + 3] > 150){
         particles.push(new Particle(i,j));
       }
@@ -124,10 +125,24 @@ function initScene(){
   amount = particles.length;
 }
 
+function isPhone() {
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    return true;
+  }
+  return false;
+}
+
 function onMouseClick(){
-  radius++;
-  if(radius ===5){
-    radius = 0;
+  if(isPhone()) {
+    radius = 2;
+    setTimeout(function () {
+      radius = 0;
+    }, 3000);
+  } else {
+    radius++;
+    if(radius ===5){
+      radius = 0;
+    }
   }
 }
 
@@ -139,7 +154,11 @@ function render(a) {
   }
 };
 
-window.addEventListener("resize", initScene);
+window.addEventListener("resize", function () {
+  if(!isPhone()){
+    initScene();
+  }
+});
 window.addEventListener("mousemove", onMouseMove);
 window.addEventListener("touchmove", onTouchMove);
 window.addEventListener("click", onMouseClick);
