@@ -134,10 +134,10 @@ function isPhone() {
 
 function onMouseClick(){
   if(isPhone()) {
-    radius = 2;
-    setTimeout(function () {
+    radius++;
+    if(radius ===3){
       radius = 0;
-    }, 3000);
+    }
   } else {
     radius++;
     if(radius ===5){
@@ -162,6 +162,7 @@ window.addEventListener("resize", function () {
 window.addEventListener("mousemove", onMouseMove);
 window.addEventListener("touchmove", onTouchMove);
 window.addEventListener("click", onMouseClick);
+window.addEventListener("click touchstart", onMouseClick);
 window.addEventListener("touchend", onTouchEnd);
 initScene();
 requestAnimationFrame(render);
