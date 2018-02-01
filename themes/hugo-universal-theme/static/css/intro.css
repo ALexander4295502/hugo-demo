@@ -1,4 +1,4 @@
-* {margin:0;}
+拟tro* {margin:0;}
 
 canvas#scene{
     background: linear-gradient(#1678EA,#5CBEFD);;
@@ -21,6 +21,7 @@ div.intro-text > h2 {
     font-weight: 800;
     font-size: 18px;
     text-transform: uppercase;
+    letter-spacing: 0.08em;
 }
 
 section#sportik-intro {
