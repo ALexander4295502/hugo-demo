@@ -3393,6 +3393,7 @@ h3,
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 p {
   margin: 0 0 10px;
 }
@@ -3539,11 +3540,21 @@ address {
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
+#sportik-team .person > h3 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+#sportik-team .person > p {
+  margin-top: 15px;
+}
+
 #sportik-team .person:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 #sportik-team .img-responsive {
+  border: solid 1px #1678EA;
   display: block;
   vertical-align: middle;
   border-radius: 50%;
@@ -3570,6 +3581,67 @@ section#sportik-team {
   padding-top: 0;
   padding-bottom: 40px;
 }
+
+section#sportik-team-map {
+  padding: 0;
+}
+
+div#copyright {
+  margin-top: 20px;
+  text-align: center;
+}
+
+div.copyright-text {
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+.social {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.social li {
+  list-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0;
+  display: inline-block;
+}
+.social li a {
+  font-size: 16px;
+  display: table;
+  width: 40px;
+  height: 40px;
+  margin: 0 4px;
+  text-decoration: none;
+}
+.social li a i {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.social li a i:hover {
+  color: #fff;
+}
+
+.social li a:hover {
+  background: #1678EA !important;
+}
+
+.social.social-circle a {
+  background: #fff;
+  border: solid 1px #1678EA;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+
 
 a.badge:hover,
 a.badge:focus {

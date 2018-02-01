@@ -3,17 +3,22 @@ _________________________________________________________ -->
 
 <div id="copyright">
     <div class="container">
-        <div class="col-md-12">
-            {{ if isset .Site.Params "copyright" }}
-            <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
+        <ul class="social social-circle">
+            {{ range .Site.Params.social.links }}
+            <li><a href="{{ with index . 1}}{{ . | absURL }}{{ end }}" target="_blank"><i class="fa fa-{{ with index . 0}}{{ . }}{{ end }}"></i></a></li>
             {{ end }}
+        </ul>
+            <div class="copyright-text">
+                {{ if isset .Site.Params "copyright" }}
+                <p>{{ .Site.Params.copyright | safeHTML }}</p>
+                {{ end }}
+            </div>
             <!--<p class="pull-right">-->
                 <!--{{ i18n "templateBy" }} <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.-->
                 <!--&lt;!&ndash; Not removing this link is part of the licence conditions of the template. Thanks for understanding :) &ndash;&gt;-->
 
                 <!--{{ i18n "portedBy" }} <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>-->
             <!--</p>-->
-        </div>
     </div>
 </div>
 <!-- /#copyright -->

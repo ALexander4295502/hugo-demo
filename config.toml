@@ -141,6 +141,15 @@ paginate = 10
     latitude = "37.5177745"
     longitude = "-122.0446720"
 
+    [params.social]
+        links = [
+            ["twitter", "#twitter"],
+            ["facebook", "#facebook"],
+            ["youtube", "#youtube"],
+            ["envelope", "mailto:your@email.com"],
+            ["github", "https://github.com/ALexander4295502"]
+        ]
+
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
 
@@ -158,6 +167,11 @@ paginate = 10
     categories = true
     tags = true
     search = true
+
+[params.home]
+    enable = true
+    title = "Home"
+    subtitle = ""
 
 [params.carousel]
     enable = true

@@ -15,31 +15,31 @@
                 {{ range .Site.Data.team }}
                 <div class="col-md-4">
                     <div class="person">
-                        <img src="{{ .image | absURL }}" alt="" class="img-responsive">
+                        <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
                         <h3>{{ .name }}</h3>
                         <h4>{{ .position }}</h4>
                         <p>{{ .description | markdownify }}</p>
 
-                        <ul class="social">
-                            {{ if isset . "linkedin" }}
-                            <li><a href="{{ .linkedin }}" target="_blank" style="opacity: 1;">
-                                <i class="fa fa-2x fa-linkedin"></i>
-                            </a></li>
-                            {{ end }}
+                        <!--<ul class="social">-->
+                            <!--{{ if isset . "linkedin" }}-->
+                            <!--<li><a href="{{ .linkedin }}" target="_blank" style="opacity: 1;">-->
+                                <!--<i class="fa fa-2x fa-linkedin"></i>-->
+                            <!--</a></li>-->
+                            <!--{{ end }}-->
 
-                            {{ if isset . "github" }}
-                            <li><a href="{{ .github }}" target="_blank" style="opacity: 1;">
-                                <i class="fa fa-2x fa-github"></i>
-                            </a></li>
-                            {{ end }}
+                            <!--{{ if isset . "github" }}-->
+                            <!--<li><a href="{{ .github }}" target="_blank" style="opacity: 1;">-->
+                                <!--<i class="fa fa-2x fa-github"></i>-->
+                            <!--</a></li>-->
+                            <!--{{ end }}-->
 
-                            {{ if isset . "facebook" }}
-                            <li><a href="{{ .facebook }}" target="_blank" style="opacity: 1;">
-                                <i class="fa fa-2x fa-facebook"></i>
-                            </a></li>
-                            {{ end }}
+                            <!--{{ if isset . "facebook" }}-->
+                            <!--<li><a href="{{ .facebook }}" target="_blank" style="opacity: 1;">-->
+                                <!--<i class="fa fa-2x fa-facebook"></i>-->
+                            <!--</a></li>-->
+                            <!--{{ end }}-->
 
-                        </ul>
+                        <!--</ul>-->
 
                     </div>
                 </div>

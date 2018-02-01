@@ -4,6 +4,7 @@ canvas#scene{
     background: linear-gradient(#1678EA,#5CBEFD);;
     width: 100vw;
     height: 100vh;
+    vertical-align: bottom;
 }
 
 div.intro-text {
@@ -15,6 +16,10 @@ div.intro-text {
 div.intro-text > h2 {
     color: #FFFFFF;
     text-align: center;
+    margin-top: -80px;
+    line-height: 1.5;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 
 section#sportik-intro {

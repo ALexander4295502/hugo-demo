@@ -426,7 +426,9 @@ function checkScroll() {
 // Reflect scrolling in navigation
 function navActive(section) {
   $('a[data-nav-section]').removeClass('focused');
-  $('a[data-nav-section="'+section+'"]').addClass('focused');
+  if(section !== 'home'){
+    $('a[data-nav-section="'+section+'"]').addClass('focused');
+  }
 }
 
 function navigationSection() {
