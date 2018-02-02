@@ -98,7 +98,7 @@ paginate = 10
     email = "yuanzheng@sportik.me"
 
 #    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "©2017 Sportik"
+    copyright = "©2018 Sportik"
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
