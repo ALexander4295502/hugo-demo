@@ -132,8 +132,9 @@ function isPhone() {
   return false;
 }
 
-function onMouseClick(){
+function onMouseClick(e){
   if(isPhone()) {
+    onTouchMove(e);
     radius++;
     if(radius ===3){
       radius = 0;
