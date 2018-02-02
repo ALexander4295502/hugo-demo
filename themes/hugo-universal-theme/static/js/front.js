@@ -409,7 +409,7 @@ function clickMenu() {
     var sectionName = $(this).attr('data-nav-section');
     $('html, body').animate({
       scrollTop: $('section[data-section="' + sectionName + '"]').offset().top - affixOffset
-    }, 500, 'easeOutExpo', function () {
+    }, 1500, 'easeInOutQuint', function () {
       navActive(sectionName);
     });
 
