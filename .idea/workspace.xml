@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35626382-4908-45fd-ac15-7b4cf179e8e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/config.toml" afterPath="$PROJECT_DIR$/config.toml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/nav.html" afterPath="$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/nav.html" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.default.css" afterPath="$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.default.css" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/js/front.js" afterPath="$PROJECT_DIR$/themes/hugo-universal-theme/static/js/front.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,7 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.toml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.toml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.toml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="218">
@@ -46,28 +49,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="intro.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/js/intro.js">
+      <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="160" column="3" lean-forward="false" selection-start-line="160" selection-start-column="3" selection-end-line="160" selection-end-column="3" />
+            <state relative-caret-position="180">
+              <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="marker.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/img/marker.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="intro.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/js/intro.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="128" column="12" lean-forward="true" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="12" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="front.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="front.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/js/front.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="423" column="0" lean-forward="true" selection-start-line="423" selection-start-column="0" selection-end-line="423" selection-end-column="0" />
+            <state relative-caret-position="421">
+              <caret line="428" column="4" lean-forward="true" selection-start-line="428" selection-start-column="4" selection-end-line="428" selection-end-column="4" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -88,25 +94,8 @@
       <file leaf-file-name="style.default.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="2062" column="1" lean-forward="true" selection-start-line="2062" selection-start-column="1" selection-end-line="2062" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customer-6.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/img/clients/customer-6.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/archetypes/default.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            <state relative-caret-position="273">
+              <caret line="3694" column="0" lean-forward="false" selection-start-line="3694" selection-start-column="0" selection-end-line="3694" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -125,13 +114,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>161</find>
-      <find>media</find>
-      <find>logo-sma</find>
-      <find>person</find>
-      <find>copyright p</find>
-      <find>#copyright p {</find>
-      <find>learn</find>
       <find>learn m</find>
       <find>h4</find>
       <find>uppercas</find>
@@ -140,7 +122,6 @@
       <find>h2</find>
       <find>id=&quot;navigation</find>
       <find>#navigation</find>
-      <find>btn-template-main-mobile</find>
       <find>data-offset-top</find>
       <find>navbar-default</find>
       <find>amount</find>
@@ -153,8 +134,16 @@
       <find>date_format</find>
       <find>topbar</find>
       <find>.Content</find>
+      <find>gmap-marker</find>
+      <find>menu-ico</find>
       <find>baseU</find>
       <find>onMouseClick</find>
+      <find>navToggle</find>
+      <find>navbar-buttons</find>
+      <find>btn-template-main-mobile</find>
+      <find>navbar-toggle</find>
+      <find>max-width</find>
+      <find>display: none</find>
     </findStrings>
     <replaceStrings>
       <replace>#1678EA</replace>
@@ -194,14 +183,14 @@
         <option value="$PROJECT_DIR$/data/team/4.yaml" />
         <option value="$PROJECT_DIR$/data/team/5.yaml" />
         <option value="$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/intro.html" />
-        <option value="$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/nav.html" />
         <option value="$PROJECT_DIR$/themes/hugo-universal-theme/layouts/index.html" />
         <option value="$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/contact_section.html" />
-        <option value="$PROJECT_DIR$/themes/hugo-universal-theme/static/js/intro.js" />
         <option value="$PROJECT_DIR$/themes/hugo-universal-theme/static/css/intro.css" />
+        <option value="$PROJECT_DIR$/config.toml" />
+        <option value="$PROJECT_DIR$/themes/hugo-universal-theme/static/js/intro.js" />
+        <option value="$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/nav.html" />
         <option value="$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.default.css" />
         <option value="$PROJECT_DIR$/themes/hugo-universal-theme/static/js/front.js" />
-        <option value="$PROJECT_DIR$/config.toml" />
       </list>
     </option>
   </component>
@@ -211,8 +200,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1680" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2640" />
     <option name="y" value="23" />
     <option name="width" value="960" />
     <option name="height" value="1057" />
@@ -317,7 +306,7 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.standard" value="" />
-    <property name="SearchEverywhereHistoryKey" value="config&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/config.toml&#10;cop&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/copyright.html&#10;front&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/js/front.js&#10;defa&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/css/style.default.css&#10;intro&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/css/intro.css&#10;mar&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/img/marker.png&#10;confi&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/config.toml&#10;cont&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact_section.html&#10;single&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/_default/single.html&#10;index&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/index.html&#10;dropdown&#9;null&#9;null&#10;nav&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/nav.html&#10;head&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/head.html&#10;client&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/clients.html&#10;intro-te&#9;null&#9;null&#10;copyright-te&#9;null&#9;null&#10;team&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/team.html&#10;tea&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/data/team&#10;intro.ht&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/intro.html&#10;intr&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/js/intro.js&#10;intro.js&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/js/intro.js&#10;logo-sma&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/static/img/logo-small.png&#10;hidden&#9;null&#9;null&#10;inde&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/index.html&#10;top&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/top.html&#10;co&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/copyright.html&#10;conf&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/config.toml&#10;sty&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/css/style.default.css&#10;s&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/css/style.default.css&#10;lead&#9;null&#9;null&#10;copyright&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/copyright.html&#10;footer&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/footer.html&#10;gmap&#9;null&#9;null&#10;map&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/map.html&#10;clie&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/clients.html&#10;clien&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/clients.html&#10;scr&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/scripts.html&#10;update&#9;null&#9;null&#10;textset&#9;null&#9;null&#10;logo&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/static/img/logo.png&#10;img&#9;null&#9;null&#10;style&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/css/style.default.css&#10;contact_section&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact_section.html&#10;contact&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact.html&#10;con&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact_section.html&#10;conta&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact_section.html&#10;hea&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/head.html&#10;ma&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/map.html&#10;person&#9;null&#9;null&#10;name-picture&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="front&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/js/front.js&#10;menu-ico&#9;null&#9;null&#10;defa&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/css/style.default.css&#10;sty&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/css/style.default.css&#10;nav&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/nav.html&#10;gmap&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/js/gmaps.init.js&#10;intro&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/js/intro.js&#10;config&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/config.toml&#10;cop&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/copyright.html&#10;mar&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/img/marker.png&#10;confi&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/config.toml&#10;cont&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact_section.html&#10;single&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/_default/single.html&#10;index&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/index.html&#10;dropdown&#9;null&#9;null&#10;head&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/head.html&#10;client&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/clients.html&#10;intro-te&#9;null&#9;null&#10;copyright-te&#9;null&#9;null&#10;team&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/team.html&#10;tea&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/data/team&#10;intro.ht&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/intro.html&#10;intr&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/js/intro.js&#10;intro.js&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/js/intro.js&#10;logo-sma&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/static/img/logo-small.png&#10;hidden&#9;null&#9;null&#10;inde&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/index.html&#10;top&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/top.html&#10;co&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/copyright.html&#10;conf&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/config.toml&#10;s&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/css/style.default.css&#10;lead&#9;null&#9;null&#10;copyright&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/copyright.html&#10;footer&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/footer.html&#10;map&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/map.html&#10;clie&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/clients.html&#10;clien&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/clients.html&#10;scr&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/scripts.html&#10;update&#9;null&#9;null&#10;textset&#9;null&#9;null&#10;logo&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/static/img/logo.png&#10;img&#9;null&#9;null&#10;style&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/css/style.default.css&#10;contact_section&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact_section.html&#10;contact&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact.html&#10;con&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact_section.html&#10;conta&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact_section.html&#10;hea&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/head.html&#10;ma&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/map.html&#10;person&#9;null&#9;null" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -362,12 +351,12 @@
       <updated>1517279687741</updated>
       <workItem from="1517279690455" duration="33276000" />
       <workItem from="1517421580456" duration="13115000" />
-      <workItem from="1517509385973" duration="14278000" />
+      <workItem from="1517509385973" duration="18953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73098000" />
+    <option name="totallyTimeSpent" value="77773000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,10 +368,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="2640" y="23" width="960" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10689837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21618743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29069766" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -412,11 +401,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/img/main-slider4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/img/men.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -534,14 +518,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/nav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -687,18 +663,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/contact_section.html">
+    <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/css/intro.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        <state relative-caret-position="345">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/js/intro.js">
+    <entry file="file://$PROJECT_DIR$/config.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="160" column="3" lean-forward="false" selection-start-line="160" selection-start-column="3" selection-end-line="160" selection-end-column="3" />
+        <state relative-caret-position="218">
+          <caret line="100" column="22" lean-forward="false" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -708,29 +684,29 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/css/intro.css">
+    <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/js/gmaps.init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="2062" column="1" lean-forward="true" selection-start-line="2062" selection-start-column="1" selection-end-line="2062" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/js/front.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="423" column="0" lean-forward="true" selection-start-line="423" selection-start-column="0" selection-end-line="423" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/js/intro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="128" column="12" lean-forward="true" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/contact_section.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -742,11 +718,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.toml">
+    <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="100" column="22" lean-forward="false" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
+        <state relative-caret-position="180">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="3694" column="0" lean-forward="false" selection-start-line="3694" selection-start-column="0" selection-end-line="3694" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/js/front.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="428" column="4" lean-forward="true" selection-start-line="428" selection-start-column="4" selection-end-line="428" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

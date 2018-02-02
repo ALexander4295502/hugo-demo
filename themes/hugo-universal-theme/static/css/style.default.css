@@ -3640,6 +3640,79 @@ div.copyright-text {
   border-radius: 50%;
 }
 
+.menu-ico{
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  overflow: hidden;
+  right: 10px;
+  top: 10px;
+  display: inline-block;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.menu-ico span{
+  width: 45px;
+  height: 6px;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  position: absolute;
+  display:block;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.menu-ico span::before{
+  height: 6px;
+  width: 45px;
+  margin-top:15px;
+  background-color: #FFFFFF;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.menu-ico span::after{
+  height: 6px;
+  width: 45px;
+  margin-top: -15px;
+  background-color: #FFFFFF;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.menu-ico:hover{
+  cursor: pointer;
+  height: 80%;
+}
+.menu-ico.clicked > span{
+  background-color: rgba(0, 0, 0, 0)
+}
+.menu-ico.clicked > span::before{
+  background-color: #FFFFFF;
+  margin: 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.menu-ico.clicked > span::after{
+  background-color: #FFFFFF;
+  margin: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+@media (min-width: 768px) {
+  div.menu-ico {
+    display: none;
+  }
+}
+
 
 
 a.badge:hover,

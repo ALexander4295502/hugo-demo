@@ -24,6 +24,7 @@ $(function () {
   clickMenu()
   checkScroll()
   navigationSection()
+  clickNavListner()
 })
 
 // Ajax contact
@@ -418,6 +419,12 @@ function clickMenu() {
       navbar.attr('aria-expanded', 'false');
     }
 
+    if(mobileMode) {
+      if($("div.menu-ico").hasClass("clicked")){
+        $("div.menu-ico").removeClass("clicked");
+      }
+    }
+
     event.preventDefault();
   })
 }
@@ -460,6 +467,16 @@ function navigationSection() {
     offset: function() { return -$(this.element).height() + 155; }
   });
 
+}
+
+function clickNavListner() {
+  $('div.menu-ico').click(function () {
+    if($(this).hasClass("clicked")){
+      $(this).removeClass("clicked");
+    } else {
+      $(this).addClass("clicked");
+    }
+  });
 }
 
 
