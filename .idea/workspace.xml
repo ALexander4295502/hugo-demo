@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="35626382-4908-45fd-ac15-7b4cf179e8e6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/nav.html" afterPath="$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/nav.html" />
       <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.default.css" afterPath="$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.default.css" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-universal-theme/static/js/front.js" afterPath="$PROJECT_DIR$/themes/hugo-universal-theme/static/js/front.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -69,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="front.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="front.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/js/front.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="428" column="4" lean-forward="true" selection-start-line="428" selection-start-column="4" selection-end-line="428" selection-end-column="4" />
+            <state relative-caret-position="4653">
+              <caret line="411" column="52" lean-forward="false" selection-start-line="411" selection-start-column="52" selection-end-line="411" selection-end-column="52" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -91,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.default.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.default.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="3694" column="0" lean-forward="false" selection-start-line="3694" selection-start-column="0" selection-end-line="3694" selection-end-column="9" />
+            <state relative-caret-position="139">
+              <caret line="3669" column="21" lean-forward="false" selection-start-line="3669" selection-start-column="21" selection-end-line="3669" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -189,8 +187,8 @@
         <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/themes/hugo-universal-theme/static/js/intro.js" />
         <option value="$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/nav.html" />
-        <option value="$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.default.css" />
         <option value="$PROJECT_DIR$/themes/hugo-universal-theme/static/js/front.js" />
+        <option value="$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.default.css" />
       </list>
     </option>
   </component>
@@ -306,7 +304,7 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.standard" value="" />
-    <property name="SearchEverywhereHistoryKey" value="front&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/js/front.js&#10;menu-ico&#9;null&#9;null&#10;defa&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/css/style.default.css&#10;sty&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/css/style.default.css&#10;nav&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/nav.html&#10;gmap&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/js/gmaps.init.js&#10;intro&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/js/intro.js&#10;config&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/config.toml&#10;cop&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/copyright.html&#10;mar&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/img/marker.png&#10;confi&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/config.toml&#10;cont&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact_section.html&#10;single&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/_default/single.html&#10;index&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/index.html&#10;dropdown&#9;null&#9;null&#10;head&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/head.html&#10;client&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/clients.html&#10;intro-te&#9;null&#9;null&#10;copyright-te&#9;null&#9;null&#10;team&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/team.html&#10;tea&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/data/team&#10;intro.ht&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/intro.html&#10;intr&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/js/intro.js&#10;intro.js&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/js/intro.js&#10;logo-sma&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/static/img/logo-small.png&#10;hidden&#9;null&#9;null&#10;inde&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/index.html&#10;top&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/top.html&#10;co&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/copyright.html&#10;conf&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/config.toml&#10;s&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/css/style.default.css&#10;lead&#9;null&#9;null&#10;copyright&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/copyright.html&#10;footer&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/footer.html&#10;map&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/map.html&#10;clie&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/clients.html&#10;clien&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/clients.html&#10;scr&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/scripts.html&#10;update&#9;null&#9;null&#10;textset&#9;null&#9;null&#10;logo&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/static/img/logo.png&#10;img&#9;null&#9;null&#10;style&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/css/style.default.css&#10;contact_section&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact_section.html&#10;contact&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact.html&#10;con&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact_section.html&#10;conta&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact_section.html&#10;hea&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/head.html&#10;ma&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/map.html&#10;person&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="menu-ico&#9;null&#9;null&#10;front&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/js/front.js&#10;defa&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/css/style.default.css&#10;sty&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/css/style.default.css&#10;nav&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/nav.html&#10;gmap&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/js/gmaps.init.js&#10;intro&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/js/intro.js&#10;config&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/config.toml&#10;cop&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/copyright.html&#10;mar&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/img/marker.png&#10;confi&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/config.toml&#10;cont&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact_section.html&#10;single&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/_default/single.html&#10;index&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/index.html&#10;dropdown&#9;null&#9;null&#10;head&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/head.html&#10;client&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/clients.html&#10;intro-te&#9;null&#9;null&#10;copyright-te&#9;null&#9;null&#10;team&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/team.html&#10;tea&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/data/team&#10;intro.ht&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/intro.html&#10;intr&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/js/intro.js&#10;intro.js&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/js/intro.js&#10;logo-sma&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/static/img/logo-small.png&#10;hidden&#9;null&#9;null&#10;inde&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/index.html&#10;top&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/top.html&#10;co&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/copyright.html&#10;conf&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/config.toml&#10;s&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/css/style.default.css&#10;lead&#9;null&#9;null&#10;copyright&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/copyright.html&#10;footer&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/footer.html&#10;map&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/map.html&#10;clie&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/clients.html&#10;clien&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/clients.html&#10;scr&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/scripts.html&#10;update&#9;null&#9;null&#10;textset&#9;null&#9;null&#10;logo&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/static/img/logo.png&#10;img&#9;null&#9;null&#10;style&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/static/css/style.default.css&#10;contact_section&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact_section.html&#10;contact&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact.html&#10;con&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact_section.html&#10;conta&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/contact_section.html&#10;hea&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/head.html&#10;ma&#9;FILE&#9;file:///Users/zheng/Documents/Hugo/sportik/themes/hugo-universal-theme/layouts/partials/map.html&#10;person&#9;null&#9;null" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -351,12 +349,12 @@
       <updated>1517279687741</updated>
       <workItem from="1517279690455" duration="33276000" />
       <workItem from="1517421580456" duration="13115000" />
-      <workItem from="1517509385973" duration="18953000" />
+      <workItem from="1517509385973" duration="19910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77773000" />
+    <option name="totallyTimeSpent" value="78730000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,11 +373,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29069766" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3731501" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3731501" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -718,6 +716,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/js/front.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4653">
+          <caret line="411" column="52" lean-forward="false" selection-start-line="411" selection-start-column="52" selection-end-line="411" selection-end-column="52" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/layouts/partials/nav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -728,19 +736,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/css/style.default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="3694" column="0" lean-forward="false" selection-start-line="3694" selection-start-column="0" selection-end-line="3694" selection-end-column="9" />
+        <state relative-caret-position="139">
+          <caret line="3669" column="21" lean-forward="false" selection-start-line="3669" selection-start-column="21" selection-end-line="3669" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/hugo-universal-theme/static/js/front.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="428" column="4" lean-forward="true" selection-start-line="428" selection-start-column="4" selection-end-line="428" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

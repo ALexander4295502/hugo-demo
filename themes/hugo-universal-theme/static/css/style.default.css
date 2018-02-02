@@ -3643,10 +3643,9 @@ div.copyright-text {
 .menu-ico{
   width: 45px;
   height: 45px;
-  position: fixed;
   overflow: hidden;
-  right: 10px;
-  top: 10px;
+  float: right;
+  margin: 10px;
   display: inline-block;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -3659,6 +3658,7 @@ div.copyright-text {
   background-color: #FFFFFF;
   position: absolute;
   display:block;
+  border-radius: 2em;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -3667,6 +3667,7 @@ div.copyright-text {
   height: 6px;
   width: 45px;
   margin-top:15px;
+  border-radius: 2em;
   background-color: #FFFFFF;
   position: absolute;
   content: '';
@@ -3678,6 +3679,7 @@ div.copyright-text {
   height: 6px;
   width: 45px;
   margin-top: -15px;
+  border-radius: 2em;
   background-color: #FFFFFF;
   position: absolute;
   content: '';
